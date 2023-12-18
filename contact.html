@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <marquee behavior="scroll" direction="left-right"> Crunchy Noodles Soup!!Crunchy Noodles Soup!!Crunchy Noodles
+        Soup!!Crunchy
+        Noodles Soup!!Crunchy Noodles Soup!!Crunchy Noodles Soup!!Crunchy Noodles Soup!!Crunchy Noodles
+        Soup!!Crunchy Noodles souup!!Crunchy Noodles Soup!! Crunchy Noodles Soup!!! Crunchy Noodles Soup!!!Crunchy
+        Noodles Soup!!!
+        Crunchy Noodles Soup!!!Crunchy Noodles Soup!!!Crunchy Noodles Soup!!!Crunchy Noodles Soup!!!Crunchy Noodles
+        Soup!!!Crunchy Noodles Soup!!!Crunchy Noodles Soup!!!Crunchy Noodles Soup!!!Crunchy Noodles Soup!!!Crunchy
+        Noodles Soup!!!Crunchy Noodles Soup!!!Crunchy Noodles Soup!!!Crunchy Noodles Soup!!!Crunchy Noodles
+        Soup!!!Crunchy Noodles Soup!!!Crunchy Noodles Soup!!!</marquee>
+    <div class="header">
+        <img class="logo" src="./images/indomie-removebg-preview.png" alt="" width="5%">
+        <ul class="wrapper">
+            <li><a href="./index.html" class="text-decoration-none text-black">HOME</a></li>
+            <li><a href="./ourmenu.html" class="text-decoration-none text-black">OUR MENU</a></li>
+            <li><a href="./contact.html" class="text-decoration-none text-black">CONTACT US</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <form action="" name="myForm" onsubmit="return(validate())">
+            <label for="">Name: </label>
+            <input type="text" name="fullName" placeholder="Enter Name">
+            <p class="name-err"></p>
+            <label for="">Email:</label>
+            <input type="email" name="email" placeholder="Enter Email">
+            <p class="email-err"></p>
+            <label for="">Phone:</label>
+            <input type="text" name="phone" placeholder="Enter Phone">
+            <p class="phone-err"></p>
+            <label for="">Password: </label>
+            <input type="password" name="password" placeholder="Enter password">
+            <p class="password-err"></p>
+            <label for="">Confirm Password: </label>
+            <input type="password" name="confirm_password" placeholder="re-enter password">
+            <p class="confirm-err"></p>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <script src="./app.js"></script>
+    <footer>
+        &copy;Copyright Noodles.com 2023
+    </footer>
+</body>
+
+</html>

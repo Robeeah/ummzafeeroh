@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../Desktop/JS/JS_class/Validate_Form"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "my project"
+	}
+}

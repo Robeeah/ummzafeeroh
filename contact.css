@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+form{
+    background: whitesmoke;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    height: 80%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    margin-top: 1rem;
+}
+ul > li{
+    display: inline;
+    list-style: none;
+    margin: 1rem;
+}
+input{
+    width: 50%;
+    margin-top: 0.2rem;
+    padding: 10px;
+}
+input:last-child{
+    margin-top: 1rem;
+    background: crimson;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.name-err, .email-err, .phone-err, .password-err, .confirm-err{
+    width: 100%;
+    color: crimson;
+    font-size: 10px;
+    font-style: italic;
+    padding: 5px 0;
+}
+.container{
+    background-image: url(./images/JULY-MENU-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
